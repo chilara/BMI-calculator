@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="first-con">
+            <h1> BMI CALCULATOR</h1><br>
+            <h3>Check your BMI</h3>
+            <h4>Fill in your details</h4>
+        </div>
+        <div class="second-con">
+            <label for="weight" class="label"><strong>Weight(kg)</strong></label><br>
+            <input type="text" class=" fontc weight"><br><br><br>
+            <label for="height" class="label"><strong>Height(cm)</strong></label><br>
+            <input type="text" class="fontc height" ><br><br><br>
+            <div class="g-container">
+            <label for="gender" class="label"><strong>Gender:</strong></label><br>
+            <select name="gender" id="gender">
+            <option value="select gender" class="option">select gender</option>
+            <option value="male" class="option">Male</option>
+            <option value="female" class="option">Female</option>
+            </select>
+            </div><br><br><br>
+            <P id="answer"></P>
+            <p id="bodyType"></p><br>
+            <button class="btn" onclick="submit()">submit</button>  
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
