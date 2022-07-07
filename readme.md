@@ -1,0 +1,1 @@
+This is a BMI calculator that estimates the amount of body fat.
