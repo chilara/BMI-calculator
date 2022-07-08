@@ -124,7 +124,7 @@ p{
 
 
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 420px){
 
     body{
         margin: 0;
@@ -137,6 +137,7 @@ p{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        width: 420px;
 
     
         
@@ -144,7 +145,7 @@ p{
 
     .first-con{
         background-color: #141E27;
-        width: 40%;
+        width: 50%;
         border-radius: 10px 10px 0 0;
         padding: 40px;
         margin-top: 5%;
@@ -173,7 +174,7 @@ p{
     .second-con{
 
         background-color: #e9eef2; 
-        width: 40%;
+        width: 50%;
         border-radius: 0 0 10px 10px;
         padding: 40px;
         margin-top: 1px;
@@ -202,7 +203,7 @@ p{
     .weight{
         border: none;
         padding: 7px;
-        width: 150px;
+        width: 200px;
         border-radius: 5px;
     }
     
@@ -211,7 +212,7 @@ p{
     .height{
         border: none;
         padding: 7px;
-        width: 150px;
+        width: 200px;
         border-radius: 5px;
     }
     
@@ -219,7 +220,7 @@ p{
     #gender{
         border: none;
         padding: 7px;
-        width: 160px;
+        width: 210px;
         border-radius: 5px;
         background-color: #141E27;
         color: white;
@@ -254,7 +255,7 @@ p{
         background-color: #F14A16;
         border: none;
         padding: 7px;
-        width: 150px;
+        width: 200px;
         text-align: center;
         color: white;
         font-size: small;
