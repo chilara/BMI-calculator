@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="first-con">
+            <h1> BMI CALCULATOR</h1><br>
+            <h3>Check your BMI</h3>
+            <h4>Fill in your details</h4>
+        </div>
+        <div class="second-con">
+            <label for="weight" class="label"><strong>Weight(kg)</strong></label><br>
+            <input type="text" class=" font-color weight"><br><br><br>
+            <label for="height" class="label"><strong>Height(m)</strong></label><br>
+            <input type="text" class="font-color height" ><br><br><br>
+            <div class="g-container">
+            <label for="gender" class="label"><strong>Gender:</strong></label><br>
+            <select name="gender" id="gender">
+            <option value="select gender" class="option">select gender</option>
+            <option value="male" class="option">Male</option>
+            <option value="female" class="option">Female</option>
+            </select>
+            </div><br><br>
+            <P id="answer"></P>
+            <p id="bodyType"></p>
+            <p id="solution"></p><br>
+            <div class="btn-container">
+            <button class="btn" onclick="submit()">submit</button>  
+            <button class="btn" onclick="clearScreen()">reset</button>
+            </div>
+        </div>
+    </div>
+    <script src="./scripts/script.js"></script>
+</body>
+</html>
