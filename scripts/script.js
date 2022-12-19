@@ -8,7 +8,9 @@ const submit = () => {
   let bmi = weight / (height * height);
   bmi = bmi.toFixed(1);
 
-  document.getElementById("answer").innerHTML = `Your BMI is ${bmi}`;
+  document.getElementById(
+    "answer"
+  ).innerHTML = `Your BMI is ${bmi}kg/m<sup>2</sup>`;
 
   let bodyType = document.getElementById("bodyType");
 
